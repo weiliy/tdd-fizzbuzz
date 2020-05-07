@@ -2,6 +2,10 @@ package cn.xpbootcamp.fizzbuzz;
 
 public class FizzBuzz {
     public String report(int n) {
+        if (n % 3 == 0 && n % 7 == 0) {
+            return "FizzWhizz";
+        }
+
         if (n % 3 == 0 && n % 5 == 0) {
             return "FizzBuzz";
         }
